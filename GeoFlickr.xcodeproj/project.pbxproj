@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D0E56291DFCBB1D00F4123F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E56281DFCBB1D00F4123F /* UIViewExtension.swift */; };
+		7D0E562D1DFCCA6B00F4123F /* Geomap.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E562C1DFCCA6B00F4123F /* Geomap.png */; };
+		7D260A101DFAE9C600B664BB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D260A0F1DFAE9C600B664BB /* MapKit.framework */; };
+		7D260A141DFAECAF00B664BB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D260A131DFAECAF00B664BB /* MapViewController.swift */; };
+		7D4721A91DFED1DE007E4E5A /* Notas GeoFlickr.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D4721A81DFED1DE007E4E5A /* Notas GeoFlickr.rtf */; };
+		7D5A2BAB1DFACBC70019C32C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A2B9F1DFACBC70019C32C /* ActivityIndicator.swift */; };
+		7D5A2BAC1DFACBC70019C32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A2BA01DFACBC70019C32C /* AppDelegate.swift */; };
+		7D5A2BAD1DFACBC70019C32C /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A2BA11DFACBC70019C32C /* Flickr.swift */; };
+		7D5A2BAE1DFACBC70019C32C /* FlickrDetailViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A2BA21DFACBC70019C32C /* FlickrDetailViewcontroller.swift */; };
+		7D5A2BAF1DFACBC70019C32C /* FlickrLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A2BA31DFACBC70019C32C /* FlickrLocation.swift */; };
+		7D5A2BB01DFACBC70019C32C /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A2BA41DFACBC70019C32C /* FlickrPhoto.swift */; };
+		7D5A2BB11DFACBC70019C32C /* FlickrPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A2BA51DFACBC70019C32C /* FlickrPhotoCell.swift */; };
+		7D5A2BB21DFACBC70019C32C /* FlickrPhotosCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A2BA61DFACBC70019C32C /* FlickrPhotosCollection.swift */; };
+		7D5A2BB31DFACBC70019C32C /* FlickrResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A2BA71DFACBC70019C32C /* FlickrResults.swift */; };
+		7D5A2BB51DFACBC70019C32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A2BA91DFACBC70019C32C /* LaunchScreen.storyboard */; };
+		7D5A2BB61DFACBC70019C32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A2BAA1DFACBC70019C32C /* Main.storyboard */; };
+		7D5A2BBA1DFAD34A0019C32C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A2BB91DFAD34A0019C32C /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		793CED641D2596280018E132 /* GeoFlickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFlickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0E56281DFCBB1D00F4123F /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = SOURCE_ROOT; };
+		7D0E562C1DFCCA6B00F4123F /* Geomap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Geomap.png; sourceTree = SOURCE_ROOT; };
+		7D260A0F1DFAE9C600B664BB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7D260A131DFAECAF00B664BB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = SOURCE_ROOT; };
+		7D4721A81DFED1DE007E4E5A /* Notas GeoFlickr.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Notas GeoFlickr.rtf"; sourceTree = SOURCE_ROOT; };
+		7D5A2B9F1DFACBC70019C32C /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = SOURCE_ROOT; };
+		7D5A2BA01DFACBC70019C32C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		7D5A2BA11DFACBC70019C32C /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = SOURCE_ROOT; };
+		7D5A2BA21DFACBC70019C32C /* FlickrDetailViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrDetailViewcontroller.swift; sourceTree = SOURCE_ROOT; };
+		7D5A2BA31DFACBC70019C32C /* FlickrLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrLocation.swift; sourceTree = SOURCE_ROOT; };
+		7D5A2BA41DFACBC70019C32C /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = SOURCE_ROOT; };
+		7D5A2BA51DFACBC70019C32C /* FlickrPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCell.swift; sourceTree = SOURCE_ROOT; };
+		7D5A2BA61DFACBC70019C32C /* FlickrPhotosCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotosCollection.swift; sourceTree = SOURCE_ROOT; };
+		7D5A2BA71DFACBC70019C32C /* FlickrResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrResults.swift; sourceTree = SOURCE_ROOT; };
+		7D5A2BA91DFACBC70019C32C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		7D5A2BAA1DFACBC70019C32C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		7D5A2BB71DFACD830019C32C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		7D5A2BB91DFAD34A0019C32C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GeoFlickr/Images.xcassets; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		793CED611D2596280018E132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D260A101DFAE9C600B664BB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		793CED5B1D2596280018E132 = {
+			isa = PBXGroup;
+			children = (
+				793CED661D2596280018E132 /* GeoFlickr */,
+				793CED651D2596280018E132 /* Products */,
+				7D260A0E1DFAE9C600B664BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		793CED651D2596280018E132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				793CED641D2596280018E132 /* GeoFlickr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		793CED661D2596280018E132 /* GeoFlickr */ = {
+			isa = PBXGroup;
+			children = (
+				7D0E562C1DFCCA6B00F4123F /* Geomap.png */,
+				7D260A131DFAECAF00B664BB /* MapViewController.swift */,
+				7D5A2BB71DFACD830019C32C /* Info.plist */,
+				7D5A2B9F1DFACBC70019C32C /* ActivityIndicator.swift */,
+				7D5A2BA01DFACBC70019C32C /* AppDelegate.swift */,
+				7D5A2BA11DFACBC70019C32C /* Flickr.swift */,
+				7D5A2BA21DFACBC70019C32C /* FlickrDetailViewcontroller.swift */,
+				7D5A2BA31DFACBC70019C32C /* FlickrLocation.swift */,
+				7D5A2BA41DFACBC70019C32C /* FlickrPhoto.swift */,
+				7D5A2BA51DFACBC70019C32C /* FlickrPhotoCell.swift */,
+				7D5A2BA61DFACBC70019C32C /* FlickrPhotosCollection.swift */,
+				7D5A2BA71DFACBC70019C32C /* FlickrResults.swift */,
+				7D5A2BA91DFACBC70019C32C /* LaunchScreen.storyboard */,
+				7D5A2BAA1DFACBC70019C32C /* Main.storyboard */,
+				7D5A2BB91DFAD34A0019C32C /* Images.xcassets */,
+				7D0E56281DFCBB1D00F4123F /* UIViewExtension.swift */,
+				7D4721A81DFED1DE007E4E5A /* Notas GeoFlickr.rtf */,
+			);
+			name = GeoFlickr;
+			path = FlickrSearch;
+			sourceTree = "<group>";
+		};
+		7D260A0E1DFAE9C600B664BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D260A0F1DFAE9C600B664BB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		793CED631D2596280018E132 /* GeoFlickr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793CED761D2596280018E132 /* Build configuration list for PBXNativeTarget "GeoFlickr" */;
+			buildPhases = (
+				793CED601D2596280018E132 /* Sources */,
+				793CED611D2596280018E132 /* Frameworks */,
+				793CED621D2596280018E132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoFlickr;
+			productName = FlickrSearch;
+			productReference = 793CED641D2596280018E132 /* GeoFlickr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		793CED5C1D2596280018E132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Richard Turton";
+				TargetAttributes = {
+					793CED631D2596280018E132 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 987H33K9BJ;
+						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 793CED5F1D2596280018E132 /* Build configuration list for PBXProject "GeoFlickr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 793CED5B1D2596280018E132;
+			productRefGroup = 793CED651D2596280018E132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				793CED631D2596280018E132 /* GeoFlickr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		793CED621D2596280018E132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5A2BBA1DFAD34A0019C32C /* Images.xcassets in Resources */,
+				7D5A2BB51DFACBC70019C32C /* LaunchScreen.storyboard in Resources */,
+				7D0E562D1DFCCA6B00F4123F /* Geomap.png in Resources */,
+				7D4721A91DFED1DE007E4E5A /* Notas GeoFlickr.rtf in Resources */,
+				7D5A2BB61DFACBC70019C32C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		793CED601D2596280018E132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5A2BAE1DFACBC70019C32C /* FlickrDetailViewcontroller.swift in Sources */,
+				7D5A2BB01DFACBC70019C32C /* FlickrPhoto.swift in Sources */,
+				7D0E56291DFCBB1D00F4123F /* UIViewExtension.swift in Sources */,
+				7D5A2BB31DFACBC70019C32C /* FlickrResults.swift in Sources */,
+				7D260A141DFAECAF00B664BB /* MapViewController.swift in Sources */,
+				7D5A2BB11DFACBC70019C32C /* FlickrPhotoCell.swift in Sources */,
+				7D5A2BB21DFACBC70019C32C /* FlickrPhotosCollection.swift in Sources */,
+				7D5A2BAC1DFACBC70019C32C /* AppDelegate.swift in Sources */,
+				7D5A2BAD1DFACBC70019C32C /* Flickr.swift in Sources */,
+				7D5A2BAB1DFACBC70019C32C /* ActivityIndicator.swift in Sources */,
+				7D5A2BAF1DFACBC70019C32C /* FlickrLocation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		793CED741D2596280018E132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		793CED751D2596280018E132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		793CED771D2596280018E132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 987H33K9BJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlickrSearch/Frameworks",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.GeoFlickr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		793CED781D2596280018E132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 987H33K9BJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlickrSearch/Frameworks",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.GeoFlickr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		793CED5F1D2596280018E132 /* Build configuration list for PBXProject "GeoFlickr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793CED741D2596280018E132 /* Debug */,
+				793CED751D2596280018E132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793CED761D2596280018E132 /* Build configuration list for PBXNativeTarget "GeoFlickr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793CED771D2596280018E132 /* Debug */,
+				793CED781D2596280018E132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 793CED5C1D2596280018E132 /* Project object */;
+}

@@ -1,0 +1,50 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier-Bold;\f2\fswiss\fcharset0 ArialMT;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red254\green254\blue254;\red255\green255\blue255;
+}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;\cssrgb\c99608\c99608\c99608;\csgray\c100000;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13780\viewh11640\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 \ul \ulc0 Notas sobre GeoFlickr.\
+
+\fs28 \
+\ulnone 0) El proyecto de desarroll\'f3 enteramente en 
+\b Swift 3
+\b0 . 99 % de mi trabajo durante estos casi 8 a\'f1os de experiencia fueron sobre Objective-C. \
+\
+1) La precisi\'f3n del API de Flickr se reduce aparentemente a nivel \'93ciudad\'94, si bien es posible especificar el scope de las coordenadas pasadas como par\'e1metro, este parece no tener ning\'fan efecto sobre el resultado.\
+\
+\
+De la documentaci\'f3n de Flickr: \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\b\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+accuracy
+\f2\b0  (Optional)\
+Recorded accuracy level of the location information. World level is 1, Country is ~3, Region ~6, City ~11, Street ~16. Current range is 1-16. The default is 16.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \cb4 \kerning1\expnd0\expndtw0 \ul Este par\'e1metro parece no tener ning\'fan efecto.\
+\
+
+\b El API de Flickr es extremadamente lento!
+\f2\b0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\ulc2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \cb4 \kerning1\expnd0\expndtw0 \ulnone \
+2) Los requests a Flickr son paginados, se obtiene la p\'e1gina siguiente o previa dragueando la collection view hacia arriba o abajo siempre que pag > 0 o pag < total_de_p\'e1ginas. Se piden 20 resultados por p\'e1gina.\
+Las p\'e1ginas n-1 y n+1 no son cacheadas, aunque ser\'eda ideal implementar ese mecanismo.\
+\
+3) Hay un toolbar con dos botones, \'93City\'94 y \'93Country\'94- Los resultados para City son obtenidos mediante las coordenadas del actuales del dispositivo. Las de County buscando el string location.country (por lo expresado en el punto 1).\
+\
+4) Cada foto de la collection view es seleccionable, mostr\'e1ndose la misma en alta resoluci\'f3n y aceptando esta nueva vista zooming y scrolling.\
+\
+5) Se implementaron dos vistas de mapas(entorno ciudad y entorno pa\'eds), pero no se ubicaron las fotos sobre el el mismo.\
+\
+}
