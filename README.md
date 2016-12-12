@@ -30,6 +30,6 @@ The task consists of creating a little gallery images app using **Flickr's API**
 
 ## Shipping
 
-- Open a PR to this repo including all the source code
+- Fork this repo and open a PR with your code against this repo's `master` branch
 
 ***Thank you for your time!***
